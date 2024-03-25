@@ -139,13 +139,13 @@ print("Fibonacci resultado (recursivo):", fib_rec_result)
 
 
 
-#### 5. Crear cuenta en stackoverflow y adjuntar imagen en el repo
+#### 5. Crear cuenta en [stackoverflow](https://stackoverflow.com/) y adjuntar imagen en el repo
 
 [![Captura7.png](https://i.postimg.cc/05dnCjJQ/Captura7.png)](https://postimg.cc/V5vXfYgQ)
 
 
 
-#### 6. Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
+#### 6. Cosas de adultos....ir a [linkedin](https://www.linkedin.com/) y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalón. Dejar enlace en el repo.
 
 ##### Mi perfil
 https://www.linkedin.com/in/hernan-javier-casilimas-vega-77647a300/
