@@ -169,7 +169,8 @@ print("Tiempo en ejecutar en segundos (iterativo):", iterative_timer)
 print("Fibonacci resultado (iterativo):", fib_iter_result)
 ```
 
-
+[![Captura12.png](https://i.postimg.cc/N0Q7cZLz/Captura12.png)](https://postimg.cc/Mnrj0P77)
+##### A partir del número 2.000.000 el tiempo se vuelve significativo, porque si ponemos un número mayor a este, el tiempo de cálculo que genera el código se amplía.
 
 #### 5. Crear cuenta en [stackoverflow](https://stackoverflow.com/) y adjuntar imagen en el repo
 
