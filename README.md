@@ -127,7 +127,7 @@ print(f"{bas} elevado a la {exp} es igual a {resul}")
 
 
 #### 4. Utilice la siguiente plantilla de code para contar el tiempo:
-```
+```python
 import time
 
 start_time = time.time()
@@ -137,12 +137,14 @@ end_time = time.time()
 timer = end_time - start_time
 print(timer)
 ```
-##### Realice pruebas para calcular fibonacci con iteración o con recursión. Determine desde que número de la serie la diferencia de tiempo se vuelve significativa.
+
+#### Realice pruebas para calcular fibonacci con iteración o con recursión. Determine desde que número de la serie la diferencia de tiempo se vuelve significativa
 
 
 ``` python
-#Primero, definamos las funciones para calcular Fibonacci iterativamente y recursivamente:
 import time
+
+#Definimos fibonacci
 def fibonacci_it(n):
     if n <= 0:
         return 0
@@ -153,53 +155,18 @@ def fibonacci_it(n):
         for _ in range(2, n + 1):
             a, b = b, a + b
         return b
-def fibonacci_re(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fibonacci_re(n - 1) + fibonacci_re(n - 2)
-start_time = time.time()
-end_time = time.time()
-timer = end_time - start_time
-print(timer)
-```
 
-
-``` python
-#Ahora la implementamos y la ejecutamos
-import time
-def fibonacci_it(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        a, b = 0, 1
-        for _ in range(2, n + 1):
-            a, b = b, a + b
-        return b
-def fibonacci_re(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fibonacci_re(n - 1) + fibonacci_re(n - 2)
-n = int(input("Ingrese el número de la serie de Fibonacci que desea calcular: "))
+#aplicamos la plantilla de code para contar el tiempo
 start_time = time.time()
-fib_iter_result = fibonacci_it(n)
+
+#En esta parte podemos cambiar el valor del número de fibonacci que queremos calcular y contar
+fib_iter_result = fibonacci_it(30) 
 end_time = time.time()
 iterative_timer = end_time - start_time
-print("Tiempo en ejecutar (iterativo):", iterative_timer)
-start_time = time.time()
-fib_rec_result = fibonacci_re(n)
-end_time = time.time()
-recursive_timer = end_time - start_time
-print("Tiempo en ejecutar (recursivo):", recursive_timer)
+
+#Imprimimos
+print("Tiempo en ejecutar en segundos (iterativo):", iterative_timer)
 print("Fibonacci resultado (iterativo):", fib_iter_result)
-print("Fibonacci resultado (recursivo):", fib_rec_result)
 ```
 
 
